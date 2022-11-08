@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "name": "X-CF Pro",
+    "inherits": "qidi",
+    "metadata":
+    {
+        "visible": true,
+        "author": "Qidi",
+        "manufacturer": "Qidi",
+        "exclude_materials": ["generic_pva", "generic_s_green"],
+        "preferred_material": "generic_pa12_cf",
+        "platform": "X-CF_Pro.stl",
+        "platform_offset": [-212, -36.3, 136],
+        "machine_extruder_trains":
+        {
+            "0": "x-cf_pro_extruder"
+        }
+    },
+    "overrides":
+    {
+        "machine_name": { "default_value": "X-CF_Pro" },
+        "machine_start_gcode": { "default_value": "G28\nG0 X0 Y0 Z50 F3600\nM140 S{material_bed_temperature_layer_0}\nM104 S{material_standby_temperature}\nM190 S{material_bed_temperature_layer_0}\nM109 S{material_print_temperature_layer_0}\nG92 E-19\nG0 X0 Y4 Z0.3 F3600\nG0 X{machine_width} Y5 F2400\nG1 X5 E0 F2400\n" },
+        "machine_end_gcode": { "default_value": "M104 S0\nM140 S0\n;Retract the filament\nG92 E0\nG1 E-3 F300\nG28\nM84" },
+        "machine_width": { "default_value": 300 },
+        "machine_depth": { "default_value": 250 },
+        "machine_height": { "default_value": 300 },
+        "machine_extruder_count": { "default_value": 1 }
+    }
+}

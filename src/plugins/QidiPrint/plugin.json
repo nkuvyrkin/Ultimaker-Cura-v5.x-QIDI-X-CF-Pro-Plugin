@@ -1,0 +1,9 @@
+{
+    "name": "QidiPrint",
+    "author": "Nick Kuvyrkin",
+    "description": "Enables remote printing and monitoring of Qidi 3D printers over network",
+    "version": "1.4.1",
+    "api": 5,
+    "supported_sdk_versions": ["8.1.0"],
+    "i18n-catalog": "cura"
+}
