@@ -1,6 +1,6 @@
-# Ultimaker Cura v5.1 QIDI X-CF Pro Plugin
+# Ultimaker Cura v5.x QIDI Printer Plugin
 
-## Plugin for Ultimaker Cura v5.1 that allows monitoring and printing QIDI X-CF Pro 3D printers over network
+## Plugin for Ultimaker Cura v5.x that allows monitoring and printing QIDI 3D printers over network
 
 This plugin is completely based on the great work of [Aleksey Sokolov](https://github.com/alkaes). Original source is [here](https://github.com/alkaes/QidiPrint).
 
@@ -14,16 +14,16 @@ This plugin is completely based on the great work of [Aleksey Sokolov](https://g
 ## Installation
 
 With Cura not running, unpack the zip file from the
-[release](https://github.com/nkuvyrkin/Ultimaker-Cura-v5.1-QIDI-X-CF-Pro-Plugin/releases/latest) to this specific folder:
+[release](https://github.com/nkuvyrkin/Ultimaker-Cura-v5.x-QIDI-Printer-Plugin/releases/latest) to this specific folder:
 
-  * Windows: `%USERPROFILE%\AppData\Roaming\cura\5.1\`
-  * MacOS: `~/Library/Application Support/Cura/5.1/`
-  * Linux: `/home/<username>/.local/share/cura/5.1/`
+  * Windows: `%USERPROFILE%\AppData\Roaming\cura\5.2.1\`
+  * MacOS: `~/Library/Application Support/Cura/5.2.1/`
+  * Linux: `/home/<username>/.local/share/cura/5.2.1/`
 
 If you have the other Qidi printer model (not X-CF Pro), unpack the [Qidi Printer Definitions.zip](https://github.com/alkaes/Qidi-Printer-Definitions/releases/download/1.0/Qidi-Printer-Definitions.v1.0.zip) to this specific folder:
-  * Windows: `%USERPROFILE%\AppData\Roaming\cura\5.1\`
-  * MacOS: `~/Library/Application Support/Cura/5.1/`
-  * Linux: `/home/<username>/.local/share/cura/5.1/`
+  * Windows: `%USERPROFILE%\AppData\Roaming\cura\5.2.1\`
+  * MacOS: `~/Library/Application Support/Cura/5.2.1/`
+  * Linux: `/home/<username>/.local/share/cura/5.2.1/`
 
 The plugin compatibility with the other QIDI printers is not tested, but hopefully it will work.
 
