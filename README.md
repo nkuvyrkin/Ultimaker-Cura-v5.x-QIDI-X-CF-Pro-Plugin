@@ -1,6 +1,6 @@
-# Ultimaker Cura v5.x QIDI Printer Plugin
+# Ultimaker Cura v5.x QIDI X-CF Pro Plugin
 
-## Plugin for Ultimaker Cura v5.x that allows monitoring and printing QIDI 3D printers over network
+## Plugin for Ultimaker Cura v5.x that allows monitoring and printing on QIDI X-CF Pro over network
 
 This plugin is completely based on the great work of [Aleksey Sokolov](https://github.com/alkaes). Original source is [here](https://github.com/alkaes/QidiPrint).
 
