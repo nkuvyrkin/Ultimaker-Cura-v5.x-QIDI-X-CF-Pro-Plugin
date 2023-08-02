@@ -105,6 +105,7 @@
         "speed_layer_0":{"default_value": 20, "value": 20 },
         "speed_travel_layer_0":{"default_value": 80, "value":80},
         "speed_slowdown_layers":{"default_value": 1},
+        "speed_z_hop":{"default_value": 5},
         "cool_min_layer_time":{"default_value": 15, "settable_per_extruder": false},
         "optimize_wall_printing_order": { "value": "True" },
         "retraction_combing": { "default_value": "infill" },
